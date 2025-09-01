@@ -1,0 +1,89 @@
+/* Full page background */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #4f46e5, #6d28d9);
+  font-family: Arial, sans-serif;
+}
+
+/* Login card */
+.login-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Header */
+.login-header i {
+  font-size: 50px;
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
+.login-header h2 {
+  margin: 0;
+  font-weight: bold;
+}
+.login-header p {
+  color: gray;
+  font-size: 14px;
+}
+
+/* Input fields */
+.form-group {
+  text-align: left;
+  margin-top: 15px;
+}
+.form-group label {
+  font-size: 14px;
+  font-weight: bold;
+}
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-top: 5px;
+  outline: none;
+}
+.form-control:focus {
+  border-color: #4f46e5;
+  box-shadow: 0px 0px 5px rgba(79, 70, 229, 0.5);
+}
+
+/* Options row */
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.form-options a {
+  font-size: 13px;
+  color: #4f46e5;
+  text-decoration: none;
+}
+.form-options a:hover {
+  text-decoration: underline;
+}
+
+/* Button */
+.btn-login {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  background: linear-gradient(135deg, #4f46e5, #6d28d9);
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-login:hover {
+  background: linear-gradient(135deg, #4338ca, #5b21b6);
+}
